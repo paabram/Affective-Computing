@@ -45,6 +45,7 @@ def load_data(file: str) -> (np.ndarray, np.ndarray, list):
     
     X = np.array(X).squeeze()
     y = np.array(y)
+    subj_idx = np.array(subj_idx)
 
     return (X, y, subj_idx)
 
